@@ -12,12 +12,20 @@
         android:text="Check Box" />
 
     <EditText
-        android:id="@+id/editText1"
+        android:id="@+id/editTextName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Enter Your Name...">
 
         <requestFocus />
+    </EditText>
+    
+   <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Your Email...">
+            
     </EditText>
 
     <Button
