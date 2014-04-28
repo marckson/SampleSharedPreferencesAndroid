@@ -1,0 +1,21 @@
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:key="first_preferencescreen">
+
+<CheckBoxPreference
+  android:key="CHECKBOX"
+  android:title="Checkbox" />
+    
+<EditTextPreference
+  android:key="NOME"
+  android:dialogTitle="Nome"
+  android:dialogMessage="Digite seu nome"
+  android:title="Nome" />
+
+<EditTextPreference
+  android:key="EMAIL"
+  android:dialogTitle="Email"
+  android:dialogMessage="Digite seu email"
+  android:title="Email" />
+
+</PreferenceScreen> 
